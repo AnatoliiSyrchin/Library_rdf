@@ -25,6 +25,7 @@ class App extends React.Component{
   }
 
   render() {
+    console.log(<AuthorList authors={this.state.authors} />)
     return(
       <div>
         <AuthorList authors={this.state.authors} />
